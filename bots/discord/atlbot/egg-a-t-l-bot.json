@@ -5,12 +5,12 @@
         "update_url": null
     },
     "exported_at": "2024-04-01T11:14:53+02:00",
-    "name": "ATLBot",
-    "author": "jfeldt19@gmail.com",
+    "name": "ATLBot Discord",
+    "author": "kyle@kyle-hosting.xyz",
     "description": "ATLbot in ptero\r\n\r\nhttps:\/\/github.com\/ATLauncher\/discord-bot\/",
     "features": null,
     "docker_images": {
-        "Nodejs 16": "ghcr.io\/parkervcp\/yolks:node_16"
+        "Nodejs 16": "ghcr.io\/kylehost\/yolks:node_16"
     },
     "file_denylist": [],
     "startup": "npm run start",

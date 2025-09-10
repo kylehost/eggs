@@ -6,11 +6,11 @@
     },
     "exported_at": "2024-04-02T14:13:31+02:00",
     "name": "Dynamica",
-    "author": "sebastian.pietschner@gmail.com",
+    "author": "kyle@kyle-hosting.xyz",
     "description": "An easy-to-use dynamic voice channel bot.",
     "features": null,
     "docker_images": {
-        "Nodejs 18": "ghcr.io\/parkervcp\/yolks:nodejs_18"
+        "Nodejs 18": "ghcr.io\/kylehost\/yolks:nodejs_18"
     },
     "file_denylist": [],
     "startup": "npx prisma migrate deploy && yarn start",

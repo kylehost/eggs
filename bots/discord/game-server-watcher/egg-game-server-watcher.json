@@ -6,11 +6,11 @@
     },
     "exported_at": "2024-04-02T14:15:38+02:00",
     "name": "Game Server Watcher",
-    "author": "a-sync@devs.space",
+    "author": "kyle@kyle-hosting.xyz",
     "description": "A simple discord\/telegram\/slack bot that can be hosted on a free service to monitor your game servers and players in style. \ud83d\ude0e",
     "features": null,
     "docker_images": {
-        "Node.js 20": "ghcr.io\/parkervcp\/yolks:nodejs_20"
+        "Node.js 20": "ghcr.io\/kylehost\/yolks:nodejs_20"
     },
     "file_denylist": [],
     "startup": "env PORT={{SERVER_PORT}} \/usr\/local\/bin\/node \/home\/container\/dist\/server.js",

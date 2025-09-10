@@ -6,11 +6,11 @@
     },
     "exported_at": "2023-09-20T21:17:10+02:00",
     "name": "JMusicBot",
-    "author": "parker@parkervcp.com",
+    "author": "kyle@kyle-hosting.xyz",
     "description": "A Discord music bot that's easy to set up and run yourself!",
     "features": null,
     "docker_images": {
-        "ghcr.io\/pterodactyl\/yolks:java_17": "ghcr.io\/pterodactyl\/yolks:java_17"
+        "ghcr.io\/kylehost\/yolks:java_17": "ghcr.io\/kylehost\/yolks:java_17"
     },
     "file_denylist": [],
     "startup": "java -Dnogui=true -jar JMusicBot.jar",
